@@ -1,1 +1,1 @@
-print("meow" * 100)
+print("meow\n" * 3)
