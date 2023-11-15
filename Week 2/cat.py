@@ -2,4 +2,7 @@ def main():
     meow(3)
     
 def meow(n):
-    print("meow")
+    for _ in range(n):
+        print("meow")
+
+main()
