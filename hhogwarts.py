@@ -1,3 +1,3 @@
 students = ["Umair", "Mair", "Ali"]
 
-print(students)
+print(students[0])
