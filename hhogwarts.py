@@ -1,6 +1,8 @@
-students = ["Umair", "Mair", "Ali"]
-
-house = ["school banda", "Sabakhell", "syed abad"]
-
-#for i in range(len(students)):
-    #print(i + 1, students[i])
+students = {
+    "Umair": "School Banda",
+    "Mair": "Sabakhell",
+    "Ali": "Syed abad"
+}
+print(students["Ali"])
+print(students["Mair"])
+print(students["Umair"])
