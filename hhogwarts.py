@@ -3,6 +3,6 @@ students = {
     "Mair": "Sabakhell",
     "Ali": "Syed abad"
 }
-print(students["Ali"])
-print(students["Mair"])
-print(students["Umair"])
+
+for student in students:
+    print(student, students[student], sep=", ")
