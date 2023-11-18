@@ -5,6 +5,4 @@ students = [
 ]
 
 for student in students:
-    print(student["name"])
-    print(student["house"])
-    print(student["city"])
+    print(student["name"], student["house"], student["city"])
