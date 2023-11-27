@@ -4,7 +4,7 @@ def main():
 
 def pyramid(n):
     for i in range(n):
-        print('A' * i)
+        print('#' * i)
         
 if __name__ == '__main__':
     main()
