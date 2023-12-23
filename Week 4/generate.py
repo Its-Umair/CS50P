@@ -1,4 +1,3 @@
 import random
 
-number = random.randint(1, 10)
-print(number)
+card = ["Jack", "Queen", "King"]
