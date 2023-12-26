@@ -1,5 +1,10 @@
 {
     "cSpell.words": [
         "cowsay"
-    ]
+    ],
+    "python.testing.pytestArgs": [
+        "Week 1"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
 }
