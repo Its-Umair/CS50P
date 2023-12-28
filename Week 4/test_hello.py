@@ -6,4 +6,5 @@ def test_default():
 
 
 def test_argument():
-    assert hello("umair") == "hello, umair"
+    for name in ["umair", "ahmad", "ali"]:
+        assert hello("umair") == "hello, umair"
