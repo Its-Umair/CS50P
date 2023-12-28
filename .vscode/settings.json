@@ -4,7 +4,7 @@
         "umair"
     ],
     "python.testing.pytestArgs": [
-        "Week 1"
+        "Week 4"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true
