@@ -1,2 +1,6 @@
-name = input("What's your name? ")
-print(f"hello, {name}")
+names = []
+
+
+for _ in range(3):
+    names.append(input("What's your name? "))
+print(names)
