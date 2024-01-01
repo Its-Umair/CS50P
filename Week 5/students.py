@@ -7,3 +7,6 @@ with open("students.csv") as file:
         student["name"] = name
         student["house"] = house
         students.append(student)
+        
+for student in students:
+    print(f"{student['name']} is in {student['house']}")
