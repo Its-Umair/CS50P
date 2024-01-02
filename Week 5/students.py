@@ -7,4 +7,4 @@ with open("students.csv") as file:
         students.append(student)
         
 for student in sorted(students, key=lambda student: student["name"]):
-    print(f"{student['name']} is in {student['house']}")
+    print(f"{student['name']} is from {student['house']}")
