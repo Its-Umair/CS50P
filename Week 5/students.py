@@ -3,7 +3,7 @@ import csv
 students = []
 
 with open("students.csv") as file:
-    reader = csv.reader(file)
+    reader = csv.DictReader(file)
     for name, house in reader:
         students.append({"name": name, "house": house})
         
