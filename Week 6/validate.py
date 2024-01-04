@@ -1,8 +1,8 @@
+import re
+
 email = input("What's your email address? ").strip()
 
-username, domain = email.split("@")
-
-if username and domain.endswith(".edu"):
-    print("valid")
+if re.search("@", email):
+    print("Valid email address")
 else:
-    print("invalid")
+    print("Invalid email address")
