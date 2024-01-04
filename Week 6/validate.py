@@ -1,6 +1,8 @@
 email = input("What's your email address? ").strip()
 
-if "@" in email and "." in email:
-    print("Valid")
+username, domain = email.split("@")
+
+if username:
+    print("valid")
 else:
-    print("Invalid")
+    print("invalid")
