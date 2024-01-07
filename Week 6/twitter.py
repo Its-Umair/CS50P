@@ -2,4 +2,4 @@ import re
 
 url = input("URL: ").strip()
 
-re.sub()
+username = re.sub(r"https://twitter.com/", "", url)
