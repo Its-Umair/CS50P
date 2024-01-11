@@ -1,10 +1,7 @@
-import sys
-
-
 class Student:
     def __init__(self, name, house):
         if not name:
-            sys.exit("Missing name")
+            
         self.name = name
         self.house = house
 
