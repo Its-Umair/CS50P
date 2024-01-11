@@ -1,7 +1,7 @@
 class Student:
     def __init__(self, name, house):
         if not name:
-            
+            raise ValueError("Please provide a name")
         self.name = name
         self.house = house
 
