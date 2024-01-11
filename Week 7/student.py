@@ -1,5 +1,6 @@
 class Student:
-    ...
+    def __init__(self):
+        
 
 
 def main():
