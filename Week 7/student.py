@@ -1,5 +1,10 @@
+import sys
+
+
 class Student:
     def __init__(self, name, house):
+        if not name:
+            sys.exit("Missing name")
         self.name = name
         self.house = house
 
@@ -13,6 +18,7 @@ def get_student():
     name = input("Name: ")
     house = input("House: ")
     return Student(name, house)
+
 
 if __name__ == "__main__":
     main()
