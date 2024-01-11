@@ -2,6 +2,8 @@ class Student:
     def __init__(self, name, house):
         if not name:
             raise ValueError("Please provide a name")
+        if not house:
+            raise ValueError("Please provide a house")
         if house not in ["Barazai", "Hazro", "Musa", "Behbodi"]:
             raise ValueError("Invalid house")
         self.name = name
