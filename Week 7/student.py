@@ -9,10 +9,13 @@ class Student:
         self.name = name
         self.house = house
 
+    def __str__(self):
+        return "a student"
+
 
 def main():
     student = get_student()
-    print(f"{student.name} from {student.house}")
+    print(student)
 
 
 def get_student():
