@@ -10,7 +10,7 @@ class Student:
         self.house = house
 
     def __str__(self):
-        return "a student"
+        return f"{self.name} from {self.house}"
 
 
 def main():
