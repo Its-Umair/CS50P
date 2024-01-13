@@ -1,5 +1,5 @@
 class Student:
-    def __init__(self, name, house):
+    def __init__(self, name, house, passion):
         if not name:
             raise ValueError("Please provide a name")
         if not house:
@@ -8,6 +8,7 @@ class Student:
             raise ValueError("Invalid house")
         self.name = name
         self.house = house
+        self.passion = passion
 
     def __str__(self):
         return f"{self.name} from {self.house}"
@@ -21,7 +22,8 @@ def main():
 def get_student():
     name = input("Name: ")
     house = input("House: ")
-    return Student(name, house)
+    passion = input("Passion: ")
+    return Student(name, house, passion)
 
 
 if __name__ == "__main__":
