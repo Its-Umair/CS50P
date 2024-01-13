@@ -21,7 +21,6 @@ def main():
 def get_student():
     name = input("Name: ")
     house = input("House: ")
-    passion = input("Passion: ")
     return Student(name, house)
 
 
