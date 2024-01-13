@@ -14,6 +14,9 @@ class Student:
 
     def house(self):
         return self.house
+    
+    def house(self, house):
+        self.house = house
 
 
 def main():
