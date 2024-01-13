@@ -12,9 +12,11 @@ class Student:
     def __str__(self):
         return f"{self.name} from {self.house}"
 
+    # Gatter
     def house(self):
         return self.house
-    
+
+    # Satter
     def house(self, house):
         self.house = house
 
