@@ -20,12 +20,12 @@ class Student:
             case "B":
                 return "💣"
             case "C":
-                return "🔑
+                return "🔑"
 
 
 def main():
     student = get_student()
-    print(student)
+    print(student.charm())
 
 
 def get_student():
