@@ -18,11 +18,14 @@ class Student:
 
     # Satter
     def house(self, house):
+        if house not in ["Barazai", "Hazro", "Musa", "Behbodi"]:
+            raise ValueError("Invalid house")
         self.house = house
 
 
 def main():
     student = get_student()
+    student.house = "Mohallah Maghrabi Dhok Barazai"
     print(student)
 
 
