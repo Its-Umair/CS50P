@@ -12,16 +12,15 @@ class Student:
 
     def __str__(self):
         return f"{self.name} from {self.house}"
-    
+
     def charm(self):
         match self.passion:
-            case "A"
+            case "A":
                 return "🧿"
-            case "B"
+            case "B":
                 return "💣"
-            case "C"
-                return "🔑"
-            
+            case "C":
+                return "🔑
 
 
 def main():
