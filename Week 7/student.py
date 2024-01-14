@@ -4,8 +4,6 @@ class Student:
             raise ValueError("Please provide a name")
         if not house:
             raise ValueError("Please provide a house")
-        if house not in ["Barazai", "Hazro", "Musa", "Behbodi"]:
-            raise ValueError("Invalid house")
         self.name = name
         self.house = house
 
