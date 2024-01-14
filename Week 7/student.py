@@ -12,13 +12,13 @@ class Student:
 
     @property
     def house(self):
-        return self.house
+        return self._house
 
     @house.setter
     def house(self, house):
         if house not in ["Barazai", "Hazro", "Musa", "Behbodi"]:
             raise ValueError("Invalid house")
-        self.house = house
+        self._house = house
 
 
 def main():
