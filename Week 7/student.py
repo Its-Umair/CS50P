@@ -12,11 +12,11 @@ class Student:
     def __str__(self):
         return f"{self.name} from {self.house}"
 
-    # Gatter
+    @property
     def house(self):
         return self.house
 
-    # Satter
+    @house.setter
     def house(self, house):
         if house not in ["Barazai", "Hazro", "Musa", "Behbodi"]:
             raise ValueError("Invalid house")
