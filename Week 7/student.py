@@ -13,7 +13,7 @@ class Student:
     @name.setter
     def name(self, name):
         if not name:
-            raise ValueError("Invalid name")
+            raise ValueError("Missing name")
         self._name = name
 
     @property
@@ -23,7 +23,7 @@ class Student:
     @house.setter
     def house(self, house):
         if house not in ["Barazai", "Hazro", "Musa", "Behbodi"]:
-            raise ValueError("Invalid house")
+            raise ValueError("Missing house")
         self._house = house
 
 
