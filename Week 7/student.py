@@ -23,7 +23,6 @@ class Student:
 
 def main():
     student = get_student()
-    student.house = "Mohallah Maghrabi Dhok Barazai"
     print(student)
 
 
