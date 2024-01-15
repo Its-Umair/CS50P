@@ -1,2 +1,5 @@
 class Hat:
     ...
+
+
+hat = Hat()
