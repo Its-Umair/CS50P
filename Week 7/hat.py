@@ -1,3 +1,6 @@
+import random
+
+
 class Hat:
     def __init__(self):
         self.houses = ["Barazai", "Hazro", "Attock", "Kamra"]
