@@ -4,9 +4,9 @@ import random
 class Hat:
     houses = ["Barazai", "Hazro", "Attock", "Kamra"]
 
-    def sort(self, name):
-        house = random.choice(self.houses)
-        print(name, "is in", house)
+    @classmethod
+    def sort(cls, name):
+        print(name, "is in", random.choice(cls.houses))
 
 
 hat = Hat()
