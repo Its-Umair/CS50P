@@ -8,5 +8,5 @@ class Student:
     
 
 class Professor:
-    def __init__(self, name, house):
+    def __init__(self, name, subject):
         
