@@ -21,7 +21,8 @@ class Professor(Wizard):
         self.subject = subject
 
     ...
-    
-    
+
+
+wizard = Wizard("Albus")
 student = Student("Umair", "Barazai")
 professor = Professor("Azad", "Electricity")
