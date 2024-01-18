@@ -6,7 +6,9 @@ class Vault:
 
     def __str__(self):
         return f"{self.galleons} Galleons, {self.sickles} Sickles, {self.knuts} knuts"
-
+    
+    def __add__(self, other):
+        
 
 potter = Vault(100, 50, 25)
 print(potter)
