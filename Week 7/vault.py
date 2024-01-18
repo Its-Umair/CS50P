@@ -5,7 +5,7 @@ class Vault:
         self. knuts = knuts
         
     def __str__(self):
-        return 
+        return f"{self.galleons} Galleons, {self.sickles} Sickles, {self.knuts} knuts"
         
 potter = Vault(100, 50, 25)
 print(potter)
