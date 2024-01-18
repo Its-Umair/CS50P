@@ -3,3 +3,6 @@ class Vault:
         self.galleons = galleons
         self. sickles = sickles
         self. knuts = knuts
+        
+potter = Vault(100, 50, 25)
+print(potter)
