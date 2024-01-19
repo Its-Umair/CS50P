@@ -4,3 +4,5 @@ students = [
     {"name": "Qaseem", "house": "Hazro"},
     {"name": "Basit", "house": "Hazro"},
 ]
+
+houses = []
