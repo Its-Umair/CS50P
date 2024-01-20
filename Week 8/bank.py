@@ -14,6 +14,7 @@ def deposit(n):
 
 
 def withdraw(n):
+    global balance
     balance -= n
 
 
