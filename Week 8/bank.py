@@ -9,6 +9,7 @@ def main():
 
 
 def deposit(n):
+    global balance
     balance += n
 
 
