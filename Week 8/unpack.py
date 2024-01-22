@@ -1,1 +1,2 @@
-first, last = input("What's your name? ").split(" ")
+first, _ = input("What's your name? ").split(" ")
+print(f"hello, {first}")
