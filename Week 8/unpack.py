@@ -1,2 +1,2 @@
-first, _ = input("What's your name? ").split(" ")
-print(f"hello, {first}")
+def total(galleons, sickles, knuts):
+    return (galleons * 17 + sickles) * 29 + knuts
