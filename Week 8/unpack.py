@@ -1,1 +1,1 @@
-def f(*args)
+def f(*args, **kwargs):
