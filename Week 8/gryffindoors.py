@@ -4,3 +4,5 @@ students = [
     {"name": "Qaseem", "house": "Hazro"},
     {"name": "Basit", "house": "Hazro"},
 ]
+
+gryffindors = [student["name"] for student in students if student["house"] == "Hazro"]
