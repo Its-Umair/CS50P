@@ -3,7 +3,8 @@ def main():
 
 
 def yell(words):
-    uppercase = 
+    uppercase = []
+    
 
 
 if __name__ == "__main__":
