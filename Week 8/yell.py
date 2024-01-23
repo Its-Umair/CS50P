@@ -1,8 +1,8 @@
 def main():
-    yell(["THIS", "IS", "CS50"])
+    yell("THIS", "IS", "CS50")
 
 
-def yell(words):
+def yell(*words):
     uppercase = []
     for word in words:
         uppercase.append(word.upper())
