@@ -1,9 +1,9 @@
 def main():
-    yell("THIS IS CS50")
+    yell(["THIS", "IS", "CS50"])
 
 
-def yell(phrase):
-    print(phrase.upper())
+def yell(words):
+    uppercase = 
 
 
 if __name__ == "__main__":
