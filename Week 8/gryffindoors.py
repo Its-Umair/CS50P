@@ -7,3 +7,6 @@ students = [
 
 def is_gryffindor(s):
     return s["house"] == "Hazro"
+
+
+gryffindor = filter(is_gryffind, students)
