@@ -5,8 +5,13 @@ students = [
     {"name": "Abdul Basit", "house": "Hazro"},
 ]
 
+
 def is_gryffindor(s):
     return s["house"] == "Hazro"
 
 
-gryffindor = filter(is_gryffind, students)
+gryffindors = filter(is_gryffindor, students)
+
+for gryffindor in gryffindors:
+    print(gryffindor["name"])
+    
