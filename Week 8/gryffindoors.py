@@ -1,5 +1,4 @@
 students = ["Umair", "Ali", "Aarish", "Abdul Basit"]
 
-gryffindors = {student: "Gryffindors" for student in students}
-
-print(gryffindors)
+for i in range(len(students)):
+    print(i + 1, students[i])
