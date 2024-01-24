@@ -5,7 +5,9 @@ def main():
 
 
 def sheep(n):
-    return "🐑" * n
+    flock = []
+    for i in range(n):
+        flock.append("🐑" * i)
 
 
 if __name__ == "__main__":
