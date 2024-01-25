@@ -6,7 +6,7 @@ def main():
 
 def sheep(n):
     for i in range(n):
-        return 
+        yield "🐑" * i
 
 
 if __name__ == "__main__":
